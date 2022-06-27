@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    console.log('Document is Ready')
+    console.log('El documento está listo')
 
     //  Obteniendo la fecha usando el objeto Date() y convirtiéndolos a cadena de caracteres
     let date = new Date()
