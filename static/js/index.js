@@ -43,7 +43,7 @@ $(document).ready(function(){
                 emotion = result.sentiment
                 emoji_url = result.path
 
-                //  Actualizar el emoticón y los sentiminetos según corresponda
+                //  Actualizar el emoticón y los sentimientos según corresponda
                 if (product  ==  'Smartphone'){
                     $('#m_emoji').attr('src' , emoji_url)
                     $('#m_emotion').text(emotion)
