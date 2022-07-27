@@ -19,7 +19,7 @@ def predict():
     
     else:
 
-        # Llamando al método predict del módulo prediction.py
+        # Llamando al método "predict" del módulo prediction.py
         sentiment , path = prediction.predict(review)
         response = {'status' : 'success',
                     'message' : 'Listo',
@@ -29,7 +29,7 @@ def predict():
     return jsonify(response)
 
 
-# Creando una API para guardar la resela, el usuario hace clic en el botón Guardar
+# Creando una API para guardar la reseña, el usuario hace clic en el botón Guardar
 @app.route('/save' , methods = ['POST'])
 def save():
 
